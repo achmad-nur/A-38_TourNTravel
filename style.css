@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=BhuTuka+Expanded+One&display=swap');
+
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper{
+    width: 1300px;
+    margin: auto;
+    position: relative;
+    background: #EFFFFD;
+
+}
+
+
+.logo a{
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: 'comic sans ms';
+    color: #1C658C;
+    padding-left: 40px;
+}
+
+.menu{
+    float: right;
+}
+
+span{
+    color: #FF5C8D;
+    font-weight: bold;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky ;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid #1C658C ;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 6px 0px 6px;
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover{
+    text-decoration: underline;   
+    color: #00C897;
+}
+
+section{
+    margin: auto;
+    /* display: flex; */
+    margin-bottom: 50px;
+}
+
+.home-contain{
+    background-image: url(https://img.freepik.com/free-vector/flat-travel-background_23-2148047306.jpg?t=st=1647433813~exp=1647434413~hmac=9d55f70ea160965283ee18f9fa05a87a68fd1cb7a32d7bc95256d39a9f3abf2e&w=740);
+    width: 1300px;
+    margin: auto;
+    position: relative;
+    background-size: cover;
+    padding-top:100px;
+    padding-bottom:100px;
+    margin-bottom: 50px;
+
+}
+
+.home-contain section{
+    margin: auto;
+    /* display: flex; */
+    margin-bottom: 50px;
+}
+
+
+.kolom{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    /* background-image: url(https://s.kaskus.id/images/2017/03/30/7444536_201703300217430273.jpg) ; */
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms' ;
+    color: #1C658C;
+    width: 100%;
+}
+
+
+table{
+    border: 5;
+    margin: auto;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'comic sans ms';
+    width: 500px;
+    height: 200px;
+}
+
+h2{
+    font-family:'comic sans ms' ;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #019267;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru{
+    background: #019267;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 2px 4px 8px #019267 ;
+}
+
+a.tbl-biru:hover{
+    background: #00C897;
+    color: white;
+    text-decoration: none;
+}
+
+a.tbl-pink{
+    background: #FF5C8D;
+    opacity: 0.7;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+
+a.tbl-pink:hover{
+    background:#FF5C8D;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.destination-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-destination{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-destination img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.tengah {
+    text-align: center;
+}
+
+.kartu-destination p a{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #1C658C;
+}
+
+.kartu-destination p a:hover{
+    color: #FF5C8D;
+    cursor: pointer;
+
+}
+
+.partner-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner{
+    width: 20%;
+    /* margin: 0%; */
+}
+
+.kartu-partner img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+#contact{
+    background: #dedede;
+    padding: 50px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0 auto; /*Auto, emmbawa konten ke center*/
+}
+
+h3{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:#1C658C ;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px;
+    margin-top: 50px ;
+}
+
+@media screen  and (max-width: 991.98px) {
+    .wrapper{
+        width: 90%;
+    }
+
+    .home-contain{
+        width: 100%;
+    }
+
+
+    .logo a{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu{
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul{
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li{
+        display: inline-block;
+        float: none;
+    }
+
+    section{
+        display: block;
+    }
+
+    section img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-destination {
+        width: 50%;
+    }
+    .kartu-partner{
+        width: 50%;
+        margin: auto;
+    }
+}
